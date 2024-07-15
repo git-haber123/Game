@@ -1,12 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://cwjecnm56f2gx"]
+[gd_scene load_steps=4 format=3 uid="uid://cwjecnm56f2gx"]
 
 [ext_resource type="Script" path="res://изменение.gd" id="1_bsr06"]
 [ext_resource type="Texture2D" uid="uid://c6v4llhuv3yjw" path="res://icon.svg" id="1_y420j"]
+[ext_resource type="Texture2D" uid="uid://kmt28afv4qtl" path="res://2d_lights_and_shadows_neutral_point_light.webp" id="3_tm4a5"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_bsr06")
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(593, 329)
+position = Vector2(338, 330)
 rotation = 3.11192
 texture = ExtResource("1_y420j")
+
+[node name="2dLightsAndShadowsNeutralPointLight" type="Sprite2D" parent="."]
+position = Vector2(580, 336)
+texture = ExtResource("3_tm4a5")
