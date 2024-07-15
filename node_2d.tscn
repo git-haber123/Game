@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3tycvvagph87"]
+
+[ext_resource type="PackedScene" uid="uid://cwjecnm56f2gx" path="res://изменение.tscn" id="1_vp53n"]
+[ext_resource type="Texture2D" uid="uid://c6v4llhuv3yjw" path="res://icon.svg" id="2_mcpcb"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_vp53n")]
+position = Vector2(402, 186)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(667, 358.5)
+scale = Vector2(1, 2.08594)
+texture = ExtResource("2_mcpcb")
